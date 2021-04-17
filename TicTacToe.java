@@ -28,7 +28,6 @@ class TicTacToe {
                     player = 'x';
                 }
             }
-
             res = check(arr);
         }
         if (res == 'x') {
@@ -55,7 +54,6 @@ class TicTacToe {
             return 'd';
         } else
             return 'c';
-
     }
 
     static char checkWinner(char[] arr) {
@@ -91,7 +89,6 @@ class TicTacToe {
                 flag = 0;
                 break;
             }
-
         }
         if (flag == 1) {
             return true;
